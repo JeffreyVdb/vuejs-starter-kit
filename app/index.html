@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="demo">
+		<h1>{{title | uppercase}}</h1>
+		<ul>
+			<li
+					v-repeat="todos"
+					v-on="click: done = !done"
+					class="{{done ? 'done' : ''}}">
+				{{content}}
+			</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>

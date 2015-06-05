@@ -1,0 +1,18 @@
+{
+  "name": "vuejs-starter-kit",
+  "devDependencies": {
+    "babel-core": "^5.5.4",
+    "babel-loader": "^5.1.4",
+    "browser-sync": "^2.7.6",
+    "gulp": "^3.9.0",
+    "gulp-webpack-build": "^0.11.1",
+    "insert-css": "^0.2.0",
+    "node-libs-browser": "^0.5.2",
+    "vue-loader": "^1.1.6",
+    "webpack": "^1.9.10",
+    "webpack-config": "^0.7.0"
+  },
+  "dependencies": {
+    "vue": "^0.11.10"
+  }
+}
